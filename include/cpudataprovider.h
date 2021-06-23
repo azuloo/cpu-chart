@@ -3,7 +3,7 @@
 
 #include <QWidget>
 #include <unistd.h>
-#include <sys_monitor_api.h>
+#include <sys-monitor/sys_monitor_api.h>
 
 class CPUDataProvider
 {

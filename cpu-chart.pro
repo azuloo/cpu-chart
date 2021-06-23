@@ -35,11 +35,11 @@ TRANSLATIONS += \
 
 INCLUDEPATH += \
     $$PWD/include/ \
-    $$PWD/3rdparty/*/include
+    $$PWD/3rdparty/
 
 DEPENDPATH += $$PWD/3rdparty/*/include
 
-LIBS += -L$$PWD/3rdparty/sys-monitor/lib/ -lsys_monitor
+LIBS += -L$$PWD/3rdparty/sys-monitor/build/ -lsys_monitor
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

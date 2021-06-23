@@ -1,0 +1,3 @@
+[submodule "3rdparty/sys-monitor"]
+	path = 3rdparty/sys-monitor
+	url = https://github.com/azuloo/sys-monitor.git
